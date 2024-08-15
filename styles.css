@@ -1,0 +1,60 @@
+body {
+    color:rgb(183 203 236 / 90%);
+    background:rgb(17, 93, 151);
+    margin: 0px;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(100, 149, 237);
+    padding: 20px;
+    font-size:30px;
+    color: honeydew;
+}
+
+.chamada {
+    background:rgb(70,130,180);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 33px;
+}
+
+p{
+    font-size:15px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x:auto;
+    gap: 15px;
+}
+
+.categoria { 
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.75;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid lightgray;
+}
+
+.categoria h2 {
+    color:honeydew;
+}
